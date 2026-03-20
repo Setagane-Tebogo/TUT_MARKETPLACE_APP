@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tut_marketplace/features/auth/screens/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,22 +13,6 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: LoginScreen(),
-    );
-  }
-}
-
-class LoginScreen extends StatelessWidget {
-  const LoginScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text("TUT Marketplace"),
-      ),
-      body: const Center(
-        child: Text("App Coming Soon 🚀"),
-      ),
     );
   }
 }
